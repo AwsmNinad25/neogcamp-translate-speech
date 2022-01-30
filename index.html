@@ -10,14 +10,17 @@
 <body>
     <div class="header-container">
         <h1 class = "heading">Banana Speak</h1>
+        <small>Translate text to banana language</small>
     </div>
     <div class = "body-container">
-    <textarea class="text-area" placeholder="Type something here...."></textarea>
-    <button class = "translate-button">Translate</button>
-    <div class = "translate-area">
+    <textarea class="text-area" id="txt-input" placeholder="Type something here...."></textarea>
+    <button class = "translate-button" id="btn-translate">Translate</button>
+    <small>Translated text will be displayed here 👇</small>
+    <div class = "translate-area" id="txt-output">
     </div>
     </div>
-    <footer class="footer-container"><p>Made with love by Ninad Mayekar while learning javascript with <a href="https://neog.camp">neog.camp.</a></p>
+    <footer class="footer-container"><p>Made with love by Ninad Mayekar while learning javascript with <a href="https://neog.camp" target="_blank">neog.camp.</a></p>
     </footer>
+    <script src="/javascript/app.js" type="text/javascript"></script>
 </body>
 </html>
