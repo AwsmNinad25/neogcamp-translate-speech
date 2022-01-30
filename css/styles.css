@@ -36,6 +36,7 @@ body {
     border-radius: 8px;
     font-size: large;
     font-family: Lobster;
+    max-width: 100%;
 }
 
 .translate-button {
@@ -56,6 +57,7 @@ body {
     margin: 1rem;
     border-radius: 8px;
     font-size: large;
+    max-width: 100%;
 }
 
 .footer-container {
