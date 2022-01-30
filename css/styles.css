@@ -47,8 +47,11 @@ body {
     margin: 2vh;
     text-align: center;
     font-size: large;
+    cursor: pointer;
 }
-
+.translate-button:hover {
+    background-color: #f3dc0b;
+}
 .translate-area {
     border: 1px solid;
     height: 100px;
