@@ -40,7 +40,9 @@ body {
 }
 
 .translate-button {
-    background-color: yellow;
+    background-color: black;
+    border: 2px solid yellow;
+    color: yellow;
     font-weight: bold;
     border-radius: 5px;
     padding: 1vh;
@@ -50,7 +52,9 @@ body {
     cursor: pointer;
 }
 .translate-button:hover {
-    background-color: #f3dc0b;
+    border:2px solid black;
+    color: black;
+    background-color: yellow;
 }
 .translate-area {
     border: 1px solid;
